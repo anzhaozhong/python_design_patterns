@@ -7,12 +7,10 @@
 #### 构造者模式
 | 模式 | 简单描述 |
 |:-------:| ----------- |
-| [抽象工厂模式](creational_patterns/abstract_factory.py)|使用一个通用的函数与特定的工厂
+| [工厂模式](creational_patterns/factory_method.py)| 委托一个专门的函数/方法来创建实例
+| [抽象工厂模式](creational_patterns/abstract_factory.py)|生产具有相同方法的实例
 | [博格模式](creational_patterns/borg.py)|实例中具有共享状态的单例
-| []() | 
-| []() | 
-| []() | 
-| []() | 
-| []() | 
-| []() | 
-| []() | 
+| [建造者模式](creational_patterns/builder.py)|替代多个构造函数,构建器对象接收参数并返回构造对象
+| [懒加载模式](creational_patterns/lazy_evaluation.py) | 用到时再实例化
+| [池模式](creational_patterns/pool.py) | 提前实例化，并维护一定数量相同类型的对象
+| [原型模式](creational_patterns/prototype.py) | 
